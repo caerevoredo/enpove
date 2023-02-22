@@ -1,6 +1,6 @@
 clear all
 
-cd "C:\Users\Carlos Revoredo\Documents\Bases\Enpove\2022"
+cd "C:"
 
 u enpove2022_v_100, clear
 
@@ -71,12 +71,6 @@ tab sit_sal
 tab p406_8 [iw=factorfinal] if _m400==3 
 
 tab p407_1 [iw=factorfinal] if _m400==3 & p405_7==0
-
-
-**Centro de salud
-
-tab p407 
-
 
 
 **Empleo e ingresos
